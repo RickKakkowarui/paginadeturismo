@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+}
+
+body {
+    padding: 80px 80px 0 80px;
+    margin: 8px 0;
+    width: 1120px;
+}
+
+span {
+    color: var(--text-headline);
+    font: bold 16px "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: var(--text-primary);
+    font: bold 36px "Open Sans", sans-serif;
+}
+
+#intro-picture {
+    width: 1120px;
+    margin: 44px 0 24px;
+    border-radius: 28px;
+}
+
+#subtitle {
+    color: var(--text-secondary);
+    font: italic 16px "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 44px;    
+}
+
+.divider {
+    border-top: solid 1px var(--text-tertiary); 
+    height: 1px;   
+}
+
+#about {
+    margin: 64px 0;
+}
+
+h2 {
+    color: var(--text-primary);
+    margin: 2px 0 8px;
+    font: bold 32px "Open Sans", sans-serif;
+}
+
+p {
+    font: 400 16px "Open Sans", sans-serif;
+}
+
+.destinations {
+    margin-bottom: 48px;
+}
+
+.destinations img {
+    width: 1120px;
+    height: 350px;
+    object-fit: cover;   
+    margin-bottom: 20px; 
+    border-radius: 28px;
+}
+
+h3 {
+    font: bold 28px "Open Sans", sans-serif;
+    margin-bottom: 4px;
+}
+
+strong {
+    font: bold 16px "Open Sans", sans-serif;
+}
+
+ul {    
+   padding-left: 20px;
+}
+
+li::marker {
+    color: var(--text-secondary);
+    padding: 16px;
+}
+
+ul li {
+    font: bold 16px "Open Sans", serif;
+}
+
+.li-1 {
+    color: var(--accent-blue);       
+}
+
+.li-2 {
+    color: var(--accent-purple);
+}
+
+.li-3 {
+    color: var(--accent-pink);
+}
+
+.li-4 {
+    color: var(--accent-orange);
+}
+
+#last {
+    margin-bottom: 0px;
+}
+
+#last-divider {
+    margin: 40px 0;
+}
+
+#conclusion {
+    text-align: center;
+}
+
+footer {
+    margin-top: 65px;
+    margin-bottom: 48px;
+    text-align: center;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+footer img {
+    vertical-align: middle;
+}
