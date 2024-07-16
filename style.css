@@ -117,6 +117,10 @@ ul li {
     margin-bottom: 0px;
 }
 
+#last img {
+  object-position: 0 75%;
+}
+
 #last-divider {
     margin: 40px 0;
 }
